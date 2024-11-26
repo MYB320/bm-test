@@ -6,9 +6,19 @@
     "start": "next start"
   },
   "dependencies": {
+    "@lexical/react": "^0.16.1",
+    "@liveblocks/client": "^2.12.2",
+    "@liveblocks/node": "^2.12.2",
+    "@liveblocks/react": "^2.12.2",
+    "@liveblocks/react-lexical": "^2.12.2",
+    "@liveblocks/react-ui": "^2.12.2",
+    "@liveblocks/zustand": "^2.12.2",
     "@radix-ui/react-checkbox": "^1.1.1",
+    "@radix-ui/react-dialog": "^1.1.2",
     "@radix-ui/react-dropdown-menu": "^2.1.1",
     "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-popover": "^1.1.2",
+    "@radix-ui/react-select": "^2.1.2",
     "@radix-ui/react-slot": "^1.1.0",
     "@supabase/ssr": "latest",
     "@supabase/supabase-js": "latest",
@@ -16,12 +26,16 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "geist": "^1.2.1",
+    "jsm-editor": "^0.0.12",
+    "lexical": "^0.16.1",
     "lucide-react": "^0.456.0",
     "next": "latest",
     "next-themes": "^0.4.3",
     "prettier": "^3.3.3",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "uuid": "^11.0.3",
+    "zustand": "^5.0.1"
   },
   "devDependencies": {
     "@types/node": "22.9.0",
